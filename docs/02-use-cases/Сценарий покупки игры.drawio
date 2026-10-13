@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net" agent="Codex">
+  <diagram id="569e885dcd5f" name="Сценарий покупки игры">
+    <mxGraphModel dx="1768" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Открыть каталог" vertex="1">
+          <mxGeometry height="70" width="180" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Выбрать игру" vertex="1">
+          <mxGeometry height="70" width="180" x="260" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Проверить платформу&lt;br&gt;и требования" vertex="1">
+          <mxGeometry height="70" width="180" x="480" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Добавить в корзину" vertex="1">
+          <mxGeometry height="70" width="180" x="720" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="Есть&lt;br&gt;промокод?" vertex="1">
+          <mxGeometry height="90" width="160" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Проверить промокод" vertex="1">
+          <mxGeometry height="70" width="180" x="250" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="Промокод&lt;br&gt;действителен?" vertex="1">
+          <mxGeometry height="90" width="160" x="480" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Пересчитать сумму&lt;br&gt;со скидкой" vertex="1">
+          <mxGeometry height="70" width="180" x="710" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Показать ошибку&lt;br&gt;промокода" vertex="1">
+          <mxGeometry height="70" width="180" x="230" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Оформить заказ" vertex="1">
+          <mxGeometry height="70" width="180" x="90" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Оплатить через&lt;br&gt;ЮKassa" vertex="1">
+          <mxGeometry height="70" width="180" x="320" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="Оплата&lt;br&gt;успешна?" vertex="1">
+          <mxGeometry height="90" width="160" x="550" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Зарезервировать&lt;br&gt;ключ" vertex="1">
+          <mxGeometry height="70" width="180" x="720" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Отправить ключ&lt;br&gt;на email" vertex="1">
+          <mxGeometry height="70" width="180" x="800" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Добавить игру&lt;br&gt;в библиотеку" vertex="1">
+          <mxGeometry height="70" width="180" x="800" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Показать ошибку&lt;br&gt;оплаты" vertex="1">
+          <mxGeometry height="70" width="180" x="540" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" edge="1" parent="1" source="c2" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" edge="1" parent="1" source="c3" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" edge="1" parent="1" source="c4" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" edge="1" parent="1" source="c5" style="endArrow=block;html=1;rounded=0;fontSize=12;edgeStyle=orthogonalEdgeStyle;" target="c6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="190" />
+              <mxPoint x="120" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c22" edge="1" parent="1" source="c6" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c7" value="да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" edge="1" parent="1" source="c7" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" edge="1" parent="1" source="c8" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c9" value="да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" edge="1" parent="1" source="c8" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c10" value="нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" edge="1" parent="1" source="c6" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c11" value="нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" edge="1" parent="1" source="c9" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" edge="1" parent="1" source="c10" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" edge="1" parent="1" source="c11" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" edge="1" parent="1" source="c12" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" edge="1" parent="1" source="c13" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c14" value="да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" edge="1" parent="1" source="c14" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" edge="1" parent="1" source="c15" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" edge="1" parent="1" source="c13" style="endArrow=block;html=1;rounded=0;fontSize=12;" target="c17" value="нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
